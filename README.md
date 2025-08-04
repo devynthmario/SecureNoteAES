@@ -1,103 +1,3 @@
-# 🔐 SecureNoteAES - Encrypted Note-Taking App (Python + Tkinter)
-
-**SecureNoteAES** is a desktop application built with Python and Tkinter that allows users to write, encrypt, save, and decrypt personal notes using strong AES encryption.
-
-The main goal is to provide a simple, minimal, yet secure way to protect your thoughts or sensitive data on your local machine.
-
----
-
-## 🎯 Features
-
-- Clean and user-friendly graphical interface
-- AES encryption with `cryptography` library (Fernet)
-- SHA-256 password-to-key derivation
-- Save notes with custom titles
-- Decrypt encrypted messages with correct password
-- Toggle password visibility
-- Input validation and error handling
-
----
-
-## 🧪 Technologies Used
-
-- Python 3.x  
-- `tkinter` for GUI  
-- `cryptography` for AES encryption  
-- `hashlib` and `base64` for key derivation  
-- Standard exception handling
-
----
-
-## 🚀 How to Use
-
-1. **Install dependencies** (if not already):
-    ```bash
-    pip install cryptography
-    ```
-
-2. **Run the application**:
-    ```bash
-    python main.py
-    ```
-
-3. **Workflow**:
-    - Enter a note title
-    - Type your secret message
-    - Set a master key (password)
-    - Click **"Save & Encrypt"** to store it securely
-    - To decrypt, paste the encrypted text into the message box and click **"Decrypt"** with the correct key
-
----
-
-## 🔗 Reference & Inspiration
-
-This project is inspired and partially based on the repository:  
-🔗 [https://github.com/devynthmario/SecureNoteAES](https://github.com/devynthmario/SecureNoteAES)
-
-Additional logic and UI improvements were made on top of the original idea.
-
----
-
-## 🧑‍💻 Author
-
-Made with ❤️ by [YourNameHere]  
-Feel free to fork, modify, and improve!
-
----
-
-## 📄 License
-
-This project is open-source and free to use for personal or educational purposes.  
-If you use or adapt it, please give proper credit.
-
-🔧 Sonraki adımlar:
-YourNameHere yerine GitHub adını veya profil linkini koyabilirsin.
-
-Gerekirse ekran görüntüsü (screenshot.png) ekleyip ![UI Screenshot](screenshot.png) gibi gösteririm.
-
-Proje yapısını da eklemek istersen, 📁 Project Structure başlığı da oluşturabiliriz.
-
-Hazırsan bu README'yi README.md olarak dosyaya kaydetmek için Python komutu da yazabilirim. Yardım edeyim mi?
-
-
-
-
-
-
-
-
-Şunu dedin:
-https://github.com/atilsamancioglu/P11-SecretNotes ben buradan yararlanıp geliştirim ona göre yaz
-
-
-ChatGPT:
-Harika! O zaman README'yi Atıl Samancıoğlu'nun P11-SecretNotes projesinden yararlandığını ve üzerine AES şifreleme, UI geliştirmeleri, hata yönetimi gibi eklemeler yaptığını belirtecek şekilde düzenliyorum.
-
-İşte sana özel, profesyonel ve katkı belirten bir README.md dosyası 👇
-
-markdown
-Kopyala
-Düzenle
 # 🔐 SecureNoteAES - AES Encrypted Note-Taking App with Tkinter
 
 **SecureNoteAES** is a desktop GUI application written in Python that allows users to securely write, encrypt, and store personal notes using **AES encryption** with a master key.
@@ -162,10 +62,12 @@ Modifications & Improvements:
 - Added robust error handling
 - Reorganized UI layout for better UX
 
+---
+
 ## 🧑‍💻 Author
 
 Built and extended by Ahmet Şentürk
-📬 @devythmario
+📬 https://github.com/devynthmario
 
 ---
 
@@ -173,3 +75,4 @@ Built and extended by Ahmet Şentürk
 
 This project is open-source and free to use for personal or educational purposes.  
 Feel free to fork and build upon it — just give credit to the original and extended authors.
+
